@@ -1,0 +1,33 @@
+# 行为画像可能含本地路径，不入 git
+data/project_profiles/*.json
+
+# 进化日志本地状态
+data/evolution_log.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 日志
+*.log
+logs/
+
+# 临时
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 凭据（防御性，本仓不应有但防止误写）
+*.env
+.env.local
+secrets*.json
